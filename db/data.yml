@@ -58,3 +58,35 @@ books:
     -
     -
     -
+
+---
+user_books:
+  columns:
+  - id
+  - user_id
+  - book_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - 5
+    - 2026-02-02 01:13:25.416695000 Z
+    - 2026-02-02 01:13:25.416695000 Z
+
+---
+users:
+  columns:
+  - id
+  - username
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - user rando
+    - 2026-02-02 01:12:37.502712000 Z
+    - 2026-02-02 01:12:37.502712000 Z
+  - - 2
+    - user rando 2
+    - 2026-02-02 01:14:31.139171000 Z
+    - 2026-02-02 01:14:31.139171000 Z
